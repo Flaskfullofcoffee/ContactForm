@@ -1,0 +1,53 @@
+body, *{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  height: 90vh;
+  text-align: center;
+  background: firebrick;
+}
+
+
+.weekly-report {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: teal;
+}
+h1 {
+  padding: 2.5vh 0;
+  font-size: 3vw;
+}
+
+.week {
+  font-size: 2vw;
+  flex: 1;
+  align-self: flex-end;
+  align-content: stretch;
+  padding-bottom: 5vh;
+}
+.week ul {
+  padding: 0 2vw;
+  background: tomato;
+}
+
+.week li {
+  list-style-type: none;
+}
+
+.sunny {
+  background-image: url('')
+}
