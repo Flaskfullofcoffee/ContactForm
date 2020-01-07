@@ -1,0 +1,67 @@
+.container {
+  height: 100vh;
+  width: auto;
+  background: aquamarine;
+  display: flex;
+  flex-direction: row;
+  .img {
+    height: 100%;
+    width: 50%;
+    background-color: cadetblue;
+  }
+  .formWrapper {
+    height: 100%;
+    width: 50%;
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .form {
+      border: 1px solid #000;
+      height: 80%;
+      width: 80%;
+      text-align: center;
+      .title {
+        font-size: 3.25vw;
+        margin: 1.5vh 0;
+      }
+      .who {
+        .name, .email {
+          position: relative;
+          font-size: 2.25vw;
+          margin: 2.5vh 0;
+        }
+        .name, .email {
+          display: block;
+          text-align: left;
+        }
+        #email {
+          width: 81.5%;
+          margin: 0 1.5vw;
+          padding: 1vh;
+          border-radius: .5vw;
+        }
+        .user_input {
+          width: 35%;
+          margin: 0 1.5vw;
+          padding: 1vh;
+          border-radius: .5vw;
+          border-style: none;
+        }
+
+      }
+      .comments {
+        position: relative;
+        font-size: 2.25vw;
+        .message {
+          display: block;
+          text-align: left;
+          position: relative;
+          font-size: 2.25vw;
+          margin: 2.5vh 0;
+        }
+      }
+    }
+  }
+}

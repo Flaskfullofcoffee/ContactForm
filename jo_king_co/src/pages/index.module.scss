@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 15vh;
+  left: 60vw;
+  height: auto;
+  width: 30%;
+  // min-width: 40vh;
+  background: firebrick;
+  .title {
+    font-size: 3.25vw;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+  }
+  .subtext {
+    font-size: 1.5vw;
+  }
+  .link {
+    margin-top: 3vh;
+    padding: 2% 4%;
+    border-radius: 2vw;
+    border-style: none;
+    font-size: 2.25vw;
+  }
+}

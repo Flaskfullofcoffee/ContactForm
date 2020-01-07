@@ -1,0 +1,43 @@
+/* BOTTOM CONTENT STYLES */
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-color: cornflowerblue;
+  border-bottom-left-radius: 80% 10%;
+  border-bottom-right-radius: 80% 10%;
+
+  .header {
+    margin-top: 5vh;
+    .title {
+      font-size: 2.75vw;
+    }
+    .subtext {
+      padding: 0 25vh;
+      font-size: 1.5vw;
+    }
+  }
+  .illustration {
+    // display: none;
+    position: absolute;
+    // background: yellow;
+    z-index: 9;
+    width: 80%;
+    top: 42vh;
+    left: -18vh;
+    .object {
+      background-image: url('../images/order.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 55vh;
+      margin-bottom: 5vh;
+      // width: auto;
+      position: relative;
+    }
+  }
+}

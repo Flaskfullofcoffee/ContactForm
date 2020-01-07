@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: auto;
+  background: crimson;
+  margin-top: -6vh;
+  padding-bottom: 2.5vh;
+  .header, .btns {
+    position: relative;
+    top: 5vh;
+  }
+  .title {
+    font-size: 3.25vw;
+    margin-bottom: 5vh;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    .link {
+      margin: -1vh 1.5vw 0;
+      padding: 1% 2%;
+      border-radius: 5vw;
+      border-style: none;
+      font-size: 2vw;
+    }
+  }
+}
